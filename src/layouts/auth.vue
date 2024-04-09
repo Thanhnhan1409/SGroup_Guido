@@ -1,3 +1,20 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-    <h1>huhuuu</h1>
+    <header>
+        Header auth
+        <img src="@/assets/icons/icon-bars.svg" alt="">
+    </header>
+    <side-bar>
+        hehehehe
+    </side-bar>
+    <router-view />
+    <footer>
+        footer auth
+    </footer>
 </template>
+<style scoped>
+
+</style>
