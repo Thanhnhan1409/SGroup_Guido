@@ -8,6 +8,10 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
+    "paths": {
+      "@/*" : ["src/*"]
+    },
+    "baseUrl": ".", //cho thấy gốc của dự án đang ở đâu 
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
